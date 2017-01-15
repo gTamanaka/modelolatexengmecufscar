@@ -1,0 +1,76 @@
+\documentclass[12pt,openright,twoside,a4paper,chapter=TITLE,english,brazil,]{abntex2}
+%Pacotes
+\usepackage{lmodern}			
+\usepackage[T1]{fontenc}		
+\usepackage[utf8]{inputenc}		
+\usepackage{indentfirst}		
+\usepackage{color}				
+\usepackage{graphicx}			
+\usepackage{subfig}
+\usepackage{microtype} 			
+\usepackage{lipsum}	
+\usepackage{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage[alf,abnt-emphasize=bf]{abntex2cite}	
+\usepackage{verbatim}
+\usepackage{titlecaps}
+
+%Parâmetros
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2 cm} 
+
+
+%
+\usepackage{hyperref} % controla a formação do índice
+
+\definecolor{blue}{RGB}{0,0,0}
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{projeto de pesquisa}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=black,          	% color of internal links
+    	citecolor=black,        		% color of links to bibliography
+    	filecolor=black,      		% color of file links
+		urlcolor=black,
+		bookmarksdepth=4}
+
+\newcommand{\largetitle}{\fontsize{14 pt}{0 pt}\selectfont}
+\newcommand{\Largetitle}{\fontsize{16 pt}{0 pt}\selectfont}
+\renewcommand{\large}{\fontsize{14 pt}{14 pt}\selectfont}
+\renewcommand{\Large}{\fontsize{16 pt}{16 pt}\selectfont}
+\renewcommand{\ABNTEXsectionfont}{\fontfamily{cmr}\fontseries{b}\selectfont}
+\renewcommand{\ABNTEXsectionfontsize}{\normalsize}
+\renewcommand{\ABNTEXsubsectionfont}{\fontfamily{cmr}\fontseries{b}\selectfont}
+\renewcommand{\ABNTEXsubsectionfontsize}{\normalsize}
+\renewcommand{\ABNTEXchapterfontsize}{\Large}
+
+\renewcommand{\afterchapternum}{. }
+\renewcommand{\afterchaptertitle}{\par\nobreak \smallskip \hrule \vskip 12pt }
+\newcommand{\afterabstract}{\par \nobreak \smallskip \hrule \meskip \afterabstractskip}
+\input{Capa}
+
+    
+ %%Apagar Headeer
+\makepagestyle{meuestilo}
+  %%cabeçalhos
+  \makeevenhead{meuestilo} %%pagina par
+     {\thepage}
+     {}
+     {}
+  \makeoddhead{meuestilo} %%pagina ímpar ou com oneside
+     {}
+     {}
+     {\thepage}
+  %% rodapé
+  \makeevenfoot{meuestilo}
+     {} %%pagina par
+     {}
+     {} 
+  \makeoddfoot{meuestilo} %%pagina ímpar ou com oneside
+     {}
+     {}
+     {}

@@ -1,0 +1,42 @@
+\input{Config}
+
+\titulo{ \uppercase{Seu Titulo da Monografia}}
+\autor{Seu nome}
+\orientador{Seu orientador}
+%\coorientador{} 
+\local{São Carlos - SP} 
+\data{\the\year} 
+\instituicao{% 
+Universidade Federal de São Carlos - UFSCar \\
+Centro de Ciências Exatas e de Tecnologia – CCET \\
+Departamento de Engenharia Mecânica – DEMec \\
+Curso de Engenharia Mecânica}
+\tipotrabalho{Projeto de Monografia}
+\preambulo{Modelo canônico de trabalho monográfico acadêmico em conformidade com as normas ABNT apresentado à comunidade de usuários \LaTeX.}
+
+
+\begin{document}
+\input{Pretextual}
+\begin{resumo}
+\vspace{-0.42 cm}
+\par \nobreak \hrule 
+\vspace{12 pt}
+\noindent
+\input{Resumo}
+\end{resumo}
+\clearpage
+
+
+\textual %Aqui começa a parte com páginas numeradas
+%\pagestyle{meuestilo}
+\chapter{Introdução}
+%Crie arquivos a parte e use o comando \input{} para inserir o seu texto no capitulo.
+
+
+\postextual
+%O arquivo de bibliografi precisa estar em documento a parte, como você vai ver em todos os tutoriais que usar na net
+%% IMPORTANTE: remova o % das duas linhas abaixo para que a bibliografia funcione
+%\bibliographystyle{abntex2-alf} 
+%\bibliography{Bib.bib}
+
+\end{document}

@@ -1,0 +1,49 @@
+\renewcommand{\imprimircapa}{%
+	\begin{capa}
+		\begin{center} 
+        \bfseries \Large \imprimirinstituicao \\
+        	\vspace{84 pt}
+			{\bfseries\large\imprimirtipotrabalho}
+			\vspace{42 pt}
+          \end{center}
+		\begin{center}
+			 \bfseries\large  \imprimirtitulo
+		\end{center}
+                \vspace*{42 pt}
+            	\begin{center}
+				\bfseries\normalsize Orientador:\\
+                \bfseries\large \imprimirorientador \\
+                \vspace*{28 pt}
+                \bfseries\normalsize Aluno:\\
+                \bfseries\large \imprimirautor
+				\end{center}
+			\vfill
+            \begin{center}
+            	\begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.15]{Figuras/logoufscar.png}
+                \end{figure}
+                \vspace{-0.75 cm}
+			\imprimirlocal  - \imprimirdata
+			\end{center}
+				
+			\vspace*{1 cm} 
+ 
+	\end{capa}
+}
+
+\makeatletter
+\renewcommand{\folhaderostocontent}{
+	\begin{center} 
+        \bfseries \Large \imprimirinstituicao \\
+        	\vspace*{70 pt}
+			{ \bfseries\large\imprimirtipotrabalho}
+			\vspace*{28 pt}
+     \end{center}
+     \begin{center}
+			\bfseries\large\imprimirtitulo 
+	\end{center}
+    \vspace*{3 cm}
+    \assinatura*{\imprimirorientador \\ \textbf{Assinatura do Orientador}}
+    \assinatura*{\imprimirautor \\ \textbf{Assinatura do Aluno}}
+    }
