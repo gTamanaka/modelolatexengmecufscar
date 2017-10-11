@@ -1,3 +1,4 @@
+%Capa
 \renewcommand{\imprimircapa}{%
 	\begin{capa}
 		\begin{center} 
@@ -11,11 +12,15 @@
 		\end{center}
                 \vspace*{42 pt}
             	\begin{center}
+                \bfseries\normalsize Autor:\\
+                \bfseries\large \imprimirautor\\
+                 \vspace*{28 pt}
 				\bfseries\normalsize Orientador:\\
-                \bfseries\large \imprimirorientador \\
-                \vspace*{28 pt}
-                \bfseries\normalsize Aluno:\\
-                \bfseries\large \imprimirautor
+                \bfseries\large\imprimirorientadorRotulo~\imprimirorientador\\
+                %\bfseries\normalsize Coorientador:\\
+                \bfseries\large \imprimircoorientadorRotulo~\imprimircoorientador \\
+
+ 
 				\end{center}
 			\vfill
             \begin{center}
@@ -32,6 +37,7 @@
 	\end{capa}
 }
 
+%Folha de rosto
 \makeatletter
 \renewcommand{\folhaderostocontent}{
 	\begin{center} 
@@ -44,6 +50,27 @@
 			\bfseries\large\imprimirtitulo 
 	\end{center}
     \vspace*{3 cm}
-    \assinatura*{\imprimirorientador \\ \textbf{Assinatura do Orientador}}
-    \assinatura*{\imprimirautor \\ \textbf{Assinatura do Aluno}}
-    }
+\hspace{.45\textwidth}
+\begin{minipage}{.5\textwidth}
+	\SingleSpacing
+		\imprimirpreambulo
+\end{minipage}
+\vfill
+\imprimirorientadorRotulo~\imprimirorientador
+\abntex@ifnotempty{\imprimircoorientador}{
+{\imprimircoorientadorRotulo~\imprimircoorientador}}
+\vfill
+\begin{center}
+            	\begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.15] {Figuras/logoufscar.png}
+                \end{figure}
+                \vspace{-0.75 cm}
+			\imprimirlocal  - \imprimirdata
+			\end{center}
+				
+			\vspace*{1 cm} 
+ }
+\makeatother
+
+
