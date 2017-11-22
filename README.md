@@ -12,6 +12,6 @@ O procedimento abaixo explica como dar download, subir o projeto para o Overleaf
  
 ![Imagem do upload](/Figuras/upload.png)
 
-  * Escolha a opção *upload zip* e escolha o arquivo que acabou de baixar.
-  
-  
+* Escolha a opção *upload zip* e escolha o arquivo que acabou de baixar.
+* Você está pronto para usar. *Nota:* Se você ler esse comment, ainda não forma implementadas as informações necessárias dentro do documento.
+  
