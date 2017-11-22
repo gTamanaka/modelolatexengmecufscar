@@ -1,2 +1,2 @@
-# Modelo Latex do Departamento de Engenharia Mecânica da UFSCar
+# Modelo Latex DEMec UFSCar
 Teste de README
