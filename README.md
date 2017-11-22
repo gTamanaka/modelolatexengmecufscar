@@ -15,7 +15,7 @@ O procedimento abaixo explica como utilizar este projeto no Overleaf, note que e
  * Entre na sua conta do overleaf
  * Clique na **seta ao lado** do botão *New Project*
  
-![Imagem do upload](/Figuras/upload.png)
+      ![Imagem do upload](/Figuras/upload.png)
 
 * Escolha a opção *upload zip* e escolha o arquivo que acabou de baixar.
 * Você está pronto para usar. *Nota:* Se você ler esse comment, ainda não forma implementadas as informações necessárias dentro do documento.
