@@ -5,7 +5,8 @@ Este documento foi desenvolvido por Gustavao T. B. Tamanaka para facilitar a tod
 * Abrir um issue e contar sobre alguma modificação da norma ou algo que não está de acordo
 * **Fazer um pull request com modificações** e eu te amarei para sempre :heart:
 ## Utilizando o Overleaf
-O procedimento abaixo explica como dar download, subir o projeto para o Overleaf e utliza-lo sem problemas. Caso você saiba como clonar um repositório, você pode utilizar essa opção também. 
+O procedimento abaixo explica utilizar o projeto no Overleaf, note que existem muitas outras maneiras, acredito que esse modo seja o mais fácil, conforme o tempo passe takvez eu adicone novas formas.
+### Download do GitHub e Upload no Overleaf
  * Realize o download utilizando o botão download acima, o arquivo ira baixar como .zip, mantenha-o nesse formato. 
  * Entre na sua conta do overleaf
  * Clique na **seta ao lado** do botão *New Project*
