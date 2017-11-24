@@ -6,7 +6,7 @@ Este documento foi desenvolvido por Gustavo T. B. Tamanaka (011) para facilitar 
 * **Fazer um pull request com modificações** e eu te amarei para sempre :heart:
 
 ## Editores Latex Online e Offline
-Existem diversos editores Latex pela internet e você tem liberdade para escolher, como minhas recomendações eu sugiro como editor online o **Overleaf** e offline eu recomendo o **TexStudio**.
+Existem diversos editores Latex pela internet e você tem liberdade para escolher. Como minhas recomendações eu sugiro como editor online o **Overleaf** e offline eu recomendo o **TexStudio**. Caso você seja um programador e utilize o Visual Code, existe uma extensão especial para Latex, infelizmente não tenho informaçes sobre o Atom. :wink:
 
 ## Utilizando o Overleaf
 O procedimento abaixo explica como utilizar este projeto no Overleaf, note que existem muitas outras maneiras de fazer essa mesma atividade, acredito que esse modo seja o mais fácil, conforme o tempo passe takvez eu adicone novas formas.
